@@ -8,9 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-
-</body>
-</html>
+<!--Separation of concerns -> Separar "coses diferents"/concerns en diferents fitxers o seccions -> components-->
+<!--MVC -> Model vista controlador -> FC -->
 <?php
 
 echo '<h1>Hola món!</h1>';
+?>
+</body>
