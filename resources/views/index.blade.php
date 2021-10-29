@@ -26,11 +26,13 @@
             <th>Completed</th>
         </tr>
 
+        <?php foreach ($tasks as $task): ?>
+        <p>Do something in HTML with <?php echo $item?>;</p>
         <tr>
-            <td>1</td>
-            <td>Estudiar PHP</td>
-            <td>dels apunts screencasts</td>
-            <td>1</td>
+            <td><?=$task->id;?></td>
+            <td><?=$task->title;?></td>
+            <td><?=$task->description;?></td>
+            <td><?=$task->completed;?></td>
         </tr>
     </table>
 </header>
